@@ -16,32 +16,24 @@ Este repositorio contiene el código oficial de ClimaSpot. Sin embargo, es impor
 
 <img src="thumbnail.png" alt="Weather" width="100%">
 
-## Installation
+## Instalación
 
-Clone the repository and install dependencies using npm:
+Clona el repositorio e instala las dependencias utilizando npm:
 
 `npm install`
 
-## Usage
+## Uso
 
-Start the development server:
+Inicia el servidor de desarrollo:
 
 `npm run dev`
 
-This will open the app in your default browser.
+Esto abrirá la aplicación en tu navegador predeterminado.
 
-Build the app for production:
+Construye la aplicación para producción:
 
 `npm run build`
 
-Preview the production build:
+Previsualiza la versión de producción:
 
 `npm run preview`
-
-## Contributing
-
-If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on GitHub.
-
-## License
-
-This project is licensed under the MIT License.
