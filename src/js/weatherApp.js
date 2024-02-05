@@ -4,8 +4,7 @@ import { handleError } from "./handleError.js";
 import { currentWeatherData } from "./currentWeatherData.js";
 import { weatherForecastData } from "./weatherForecastData.js";
 
-const API_KEY = "ea0e52ea990be9fa8d8ee9b462e2601d";
-//import.meta.env.VITE_API_KEY
+const API_KEY = "TU API KEY";
 
 const searchBoxInput = document.querySelector(".search-box-input");
 const gpsButton = document.querySelector(".gps-button");
@@ -67,7 +66,7 @@ searchBoxInput.addEventListener("keyup", async (event) => {
 gpsButton.addEventListener("click", getUserLocation);
 
 ctaButton.addEventListener("click", () => {
-  window.open("https://github.com");
+  window.open("https://github.com/ALEXXHUMILDE/ClimaSpot");
 });
 
 topButton.addEventListener("click", scrollToTop);
