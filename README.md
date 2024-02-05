@@ -8,6 +8,12 @@ Este repositorio contiene el código oficial de ClimaSpot. Sin embargo, es impor
 - **Autor original:** Pekkiriscim
 - **Repositorio original:** [Enlace](https://github.com/pekkiriscim/weather)
 
+- ## Tecnologías
+
+- **HTML:** El marcado estructural de las páginas web.
+- **SCSS:** Un preprocesador de CSS que facilita la escritura de estilos más eficientes y mantenibles.
+- **JavaScript:** El lenguaje de programación que permite la interactividad y dinamismo en el lado del cliente.
+
 <img src="thumbnail.png" alt="Weather" width="100%">
 
 ## Installation
