@@ -1,6 +1,11 @@
-# Weather
+# ClimaSpot
 
-Quickly access accurate weather information with a clean, modern and user-friendly design.
+Este repositorio contiene el código oficial de ClimaSpot. Sin embargo, es importante destacar que este código no es original y pertenece a otra persona. Este repositorio se proporciona con el propósito de traducirlo al español y aprender.
+
+## Información adicional
+
+- **Autor original:** Pekkiriscim
+- **Repositorio original:** [Enlace](https://github.com/pekkiriscim/weather)
 
 <img src="thumbnail.png" alt="Weather" width="100%">
 
