@@ -1,5 +1,6 @@
 # ClimaSpot
 
+> [!IMPORTANT]
 Este repositorio contiene el código oficial de ClimaSpot. Sin embargo, es importante destacar que este código no es original y pertenece a otra persona. Este repositorio se proporciona con el propósito de traducirlo al español y aprender.
 
 ## Información adicional
