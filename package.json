@@ -1,9 +1,9 @@
 {
-  "name": "weather",
+  "name": "climaspot",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Quickly access accurate weather information with a clean, modern and user-friendly design.",
+  "description": "Acceda rápidamente a información meteorológica precisa con un diseño limpio, moderno y fácil de usar.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pekkiriscim/weather.git"
+    "url": "git+https://github.com/ALEXXHUMILDE/ClimaSpot.git"
   },
-  "author": "Mustafa Pekkirişci",
+  "author": "ALEXX HUMILDE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pekkiriscim/weather/issues"
+    "url": "https://github.com/ALEXXHUMILDE/ClimaSpot/issues"
   },
-  "homepage": "https://github.com/pekkiriscim/weather#readme",
+  "homepage": "https://github.com/ALEXXHUMILDE/ClimaSpot#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "sass": "^1.59.2",
