@@ -5,11 +5,11 @@
   width: 100%;
   margin-top: $spacing-40;
 
-  & > *:nth-child(n) {
+  &>*:nth-child(n) {
     margin-right: $spacing-16;
   }
 
-  & > *:last-child {
+  &>*:last-child {
     margin-right: $spacing-0;
   }
 

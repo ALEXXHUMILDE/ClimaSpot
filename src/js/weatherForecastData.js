@@ -15,9 +15,9 @@ export const weatherForecastData = async (data, key) => {
   let API_URL;
 
   if (data.lat && data.lon) {
-    API_URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${data.lat}&lon=${data.lon}&appid=${key}&units=metric`;
+    API_URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${data.lat}&lon=${data.lon}&appid=${key}&units=metric&lang=es`;
   } else {
-    API_URL = `https://api.openweathermap.org/data/2.5/forecast?q=${data}&appid=${key}&units=metric`;
+    API_URL = `https://api.openweathermap.org/data/2.5/forecast?q=${data}&appid=${key}&units=metric&lang=es`;
   }
 
   const response = await fetch(API_URL);

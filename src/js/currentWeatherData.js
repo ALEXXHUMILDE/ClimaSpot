@@ -17,19 +17,19 @@ export const currentWeatherData = async (data, key) => {
   let API_URL;
 
   if (data.lat && data.lon) {
-    API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${data.lat}&lon=${data.lon}&appid=${key}&units=metric`;
+    API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${data.lat}&lon=${data.lon}&appid=${key}&units=metric&lang=es`;
   } else {
-    API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${data}&appid=${key}&units=metric`;
+    API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${data}&appid=${key}&units=metric&lang=es`;
   }
 
   const response = await fetch(API_URL);
 
   if (!response.ok) {
     if (response.status === 404) {
-      throw new Error(`Lo sentimos, no pudimos encontrar ${data}. Por favor, revisa la ortografía e inténtalo de nuevo.`);
+      throw new Error(`Lo siento, no pudimos encontrar ${data}. Por favor, verifica la ortografía y vuelve a intentarlo.`);
     } else {
       throw new Error(
-        "¡Ups! Estamos teniendo problemas para obtener la información meteorológica más reciente en este momento. Inténtelo de nuevo más tarde o comuníquese con el soporte técnico si el problema persiste."
+        "¡Ups! Estamos teniendo problemas para obtener la información meteorológica más reciente en este momento. Por favor, inténtalo de nuevo más tarde o contacta con el soporte si el problema persiste."
       );
     }
   }
@@ -40,7 +40,7 @@ export const currentWeatherData = async (data, key) => {
   currentWeatherTemperature.innerHTML = await roundDegree(currentWeatherData.main.temp);
   currentWeatherDescription.innerHTML = await capitalize(currentWeatherData.weather[0].description);
   currentLocation.innerHTML = currentWeatherData.name;
-  currentDate.innerHTML = await formatDate(currentWeatherData.dt);
+  currentDate.innerHTML = await formatDate(currentWeatherData.dt, "full");
 
   windSpeedValue.innerHTML = await mpsToKmh(currentWeatherData.wind.speed);
   pressureValue.innerHTML = `${currentWeatherData.main.pressure} hPa`;
