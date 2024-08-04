@@ -18,7 +18,7 @@ Este repositorio contiene el código oficial de ClimaSpot. Sin embargo, es impor
 
 <img src="src/img/modo-dark.png" alt="modo-dark" width="100%">
 
-- ## Modo dark
+- ## Modo light
 
 <img src="src/img/modo-light.png" alt="modo-light" width="100%">
 
